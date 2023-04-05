@@ -1,0 +1,15 @@
+swagger: "2.0"
+info:
+  title: "My API"
+  version: "1.0.0"
+host: "localhost:8080"
+basePath: "/v1"
+schemes:
+  - "http"
+paths:
+  /users:
+    get:
+      summary: "Get a list of users"
+      responses:
+        200:
+          description: "OK"
